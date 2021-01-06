@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*------------ Menu bar ----------------*/
+nav{
+    height: 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 5%;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+/*------------ Menu End ----------------*/
+
+h1{
+    font-size: 50px;
+}
+span{
+    color:orange;
+}
+
+/*------------ tow part image section Start ----------------*/
+
+.half-width{
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+.first-pra{
+    margin-bottom: 35px;
+}
+
+/*------------ tow part image section End ----------------*/
+
+section{
+    height: 600px;
+}
+
+/*------------ Three Coloum Start ----------------*/
+.three-coloum-hedding{
+    text-align: center;
+}
+.work-highlite{
+    color: blueviolet;
+}
+.wrapper{
+    background-color: #ebe7e7;
+}
+.col-3{
+    width: 960px;
+    margin: 0 auto;
+}
+.col-1{
+    float: left;
+}
+.col-1 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px gray;
+}
+.last-coll{
+    margin-right: 0px;
+}
+.col-1 p{
+    width: 300px;
+    text-align: justify;
+}
+.col-1 h3{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+/*------------ Three Coloum End ----------------*/
+
+
+
+/*------------ Lat Images Start ----------------*/
+
+.last-img{
+    background-image: url("images/footer-1.png");
+    width: 70%;
+    margin: 0px auto;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    border-radius: 30px;
+}
+.last-button{
+    float: right;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    margin: 10%;
+}
+
+.work-last{
+    color: white;
+    float: left;
+    margin: 6%;
+}
+
+/*------------ Lat Images End ----------------*/
+
+/*------------ Last Content ----------------*/
+
+.footer-up{
+    width: 100%;
+    height: 400px;
+}
+.last-element h3{
+    margin-left: 45%;
+}
+.last-element a{
+    text-align: center;
+    margin-left: 40%;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(32, 19, 19);
+}
+.footer-image{
+    margin-left: 45%;
+    margin-top: 8px;
+}
+.last-photo1{
+    width: 50;
+    height: 50px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.end{
+	text-align: center; 
+	font-size: 18px;
+}
