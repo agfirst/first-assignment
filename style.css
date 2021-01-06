@@ -65,40 +65,49 @@ section{
 }
 
 /*------------ Three Coloum Start ----------------*/
-.three-coloum-hedding{
+
+.project{
+    width: 100%;
+    height: 500px;
+    background-color: silver;
+}
+
+.first-project{
+    box-shadow: 10px 10px 40px gray;
+    width: 25%;
+    height:350PX;
+    margin-left: 6%;
+    border-radius: 10px;
+    float:left;
+}
+.first-images img{
+    width: 90%;
+    height: 170px;
+    margin: 2%;
+    border-radius: 10px;
+}
+.project{
+    margin-top: 20%;
     text-align: center;
 }
 .work-highlite{
-    color: blueviolet;
+    color:indigo;
 }
-.wrapper{
-    background-color: #ebe7e7;
-}
-.col-3{
-    width: 960px;
-    margin: 0 auto;
-}
-.col-1{
-    float: left;
-}
-.col-1 img{
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
-    margin-top: 20px;
-    box-shadow: 5px 5px 15px gray;
-}
-.last-coll{
-    margin-right: 0px;
-}
-.col-1 p{
-    width: 300px;
+.dis{
     text-align: justify;
+    margin-left: 5%;
 }
-.col-1 h3{
-    text-align: center;
-    color: cornflowerblue;
+h3{
+    text-align: justify;
+    margin-left: 5%;
+    color:indigo;
 }
+.project{
+    height: 500px;
+    background-color: white;
+}
+
+
 
 /*------------ Three Coloum End ----------------*/
 
